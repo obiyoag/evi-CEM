@@ -1,0 +1,12 @@
+# overall
+exp_name: train_rectified
+
+# data
+dataset: rectified
+train_with_c_gt: false
+
+# arch
+pretrain: checkpoints/last.ckpt
+
+# cav
+cav_path: checkpoints/cavs.pkl

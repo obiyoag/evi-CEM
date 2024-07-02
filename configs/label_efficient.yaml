@@ -1,0 +1,5 @@
+# overall
+exp_name: label_efficient
+
+# data
+train_with_c_gt: false

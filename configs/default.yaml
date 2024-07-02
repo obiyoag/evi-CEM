@@ -1,0 +1,39 @@
+# overall
+project_name: evi-CEM
+exp_name: default
+seed: 3
+device: 0
+
+# data
+dataset: skincon
+data_dir: data/
+batch_size: 128
+concept_weight: true
+train_with_c_gt: true
+
+# arch
+arch: evi_cem
+num_classes: 3
+emb_size: 16
+interven_prob: 0.0
+embedding_activation: leakyrelu
+concept_loss_weight: 1.0
+c_extractor_arch: resnet34
+pretrain: null
+
+# optimizer
+optimizer: adamw
+lr: 0.0005
+weight_decay: 0.01
+max_epochs: 50
+val_every_n_epochs: 1
+
+# checkpoint saving
+ckpt_saving: false
+ckpt_save_dir: ./checkpoints
+ckpt_save_monitor: val/metric/c_auc
+ckpt_save_mode: max
+save_weights_only: true
+
+# logger
+logger: false

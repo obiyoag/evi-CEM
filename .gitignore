@@ -1,0 +1,8 @@
+.vscode/
+checkpoints/
+wandb/
+lightning_logs/
+**/meta_data/**
+**/raw_data/**
+**/__pycache__/**
+

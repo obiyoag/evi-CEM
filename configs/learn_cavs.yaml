@@ -1,0 +1,19 @@
+# overall
+exp_name: learn_cavs
+
+# data
+train_with_c_gt: false
+
+# arch
+arch: evi_clm
+
+# optimizer
+max_epochs: 15
+
+# cav
+sample_num: 50
+svm_reg: 0.01
+misaligned_threshold: 0.6
+
+# checkpoint saving
+ckpt_saving: true
