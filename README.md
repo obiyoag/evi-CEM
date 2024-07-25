@@ -25,7 +25,7 @@ wget -P data/meta_data https://raw.githubusercontent.com/mattgroh/fitzpatrick17k
 ```
 wget -O data/meta_data/skincon.csv https://skincon-dataset.github.io/files/annotations_fitzpatrick17k.csv
 ```
-3. Run `python data/raw_data_download.py` to download the fitzpatrick17k images
+3. Run `python data/raw_data_download.py` to download the fitzpatrick17k images. If any image links in the `fitzpatrick17k.csv` become invalid, the raw images can be downloaded [here](https://drive.google.com/file/d/1Eb7MGGr1Dj0z2xgEuMuCoblECuPDCrhD/view?usp=share_link)
 4. Run `python data/generate_clip_concepts.py` to generate soft concept labels with [MONET](https://github.com/suinleelab/MONET)
 
 ### evi-CEM training
@@ -56,7 +56,7 @@ This project is under the Apache-2.0 license. See [LICENSE](LICENSE) for details
 - We appreciate the effort of [MONET](https://github.com/suinleelab/MONET) to train and release the dermatology vision-language model.
 
 ## 📝 Citation
-If our work or code is helpful in your research, please cite our paper as follows.
+If our work or code is helpful in your research, please star this repo and cite our paper as follows.
 ```
 @inproceedings{Gao2024eviCEM,
     author={Yibo Gao, Zheyao Gao, Xin Gao, Yuanye Liu, Bomin Wang, Xiahai Zhuang},
