@@ -40,8 +40,8 @@ python train.py --config configs/label_efficient.yaml
 ```
 **Label-efficient training with concept rectification**:
 ```
-python learn_cavs.py --configs/learn_cavs.yaml
-python train.py --configs/train_rectified.yaml
+python learn_cavs.py --config configs/learn_cavs.yaml
+python train.py --config configs/train_rectified.yaml
 ```
 ## 🙋 Feedback and Contact
 - ybgao22@m.fudan.edu.cn
